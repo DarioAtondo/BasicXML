@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
+<!DOCTYPE menuCDs [
+        <!ELEMENT menuCDs (cd)*>
+        <!ELEMENT cd (titulo,artista,pais,companiaDiscrografica,precio,anioPublicacion)*>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT artista (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT companiaDiscrografica (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT anioPublicacion (#PCDATA)>
+        ]>
 <menuCDs><cd>
     <titulo>still got the blues</titulo>
     <artista>gary moore</artista>
