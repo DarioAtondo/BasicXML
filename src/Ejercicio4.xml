@@ -9,14 +9,15 @@
         <!ELEMENT precio (#PCDATA)>
         <!ELEMENT anioPublicacion (#PCDATA)>
         ]>
-<menuCDs><cd>
-    <titulo>still got the blues</titulo>
-    <artista>gary moore</artista>
-    <pais>uk</pais>
-    <companiaDiscrografica>virgin records</companiaDiscrografica>
-    <precio>10.20</precio>
-    <anioPublicacion>1990</anioPublicacion>
-</cd>
+<menuCDs>
+    <cd>
+        <titulo>still got the blues</titulo>
+        <artista>gary moore</artista>
+        <pais>uk</pais>
+        <companiaDiscrografica>virgin records</companiaDiscrografica>
+        <precio>10.20</precio>
+        <anioPublicacion>1990</anioPublicacion>
+    </cd>
     <cd>
         <titulo>one night only</titulo>
         <artista>bee gees</artista>
