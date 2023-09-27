@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE menu [
-        <!ELEMENT menu (platillo)*>
-        <!ELEMENT platillo (nombre,precioEuros,descripcion,calorias)*>
+        <!ELEMENT menu (platillo)+>
+        <!ELEMENT platillo (nombre,precioEuros,descripcion,calorias)>
         <!ELEMENT nombre (#PCDATA)>
         <!ELEMENT precioEuros (#PCDATA)>
         <!ELEMENT descripcion (#PCDATA)>

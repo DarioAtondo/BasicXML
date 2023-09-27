@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!DOCTYPE invoice [
+        <!ELEMENT invoice (businessContactInfo,order,goodsDescription,customerMessage,paymentDetails)>
+        <!ELEMENT businessContactInfo (name,adress,telephone,email,website)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT adress (street,city,state,zipCode)>
+        <!ELEMENT street (#PCDATA)>
+        <!ELEMENT city (#PCDATA)>
+        <!ELEMENT state (#PCDATA)>
+        <!ELEMENT zipCode (#PCDATA)>
+        <!ELEMENT telephone (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+        <!ELEMENT website (#PCDATA)>
+        <!ELEMENT order (billTo,shipTo,invoiceDetails)>
+        <!ELEMENT billTo (clientName,adress)>
+        <!ELEMENT clientName (#PCDATA)>
+        <!ELEMENT shipTo (clientName,adress)>
+        <!ELEMENT invoiceDetails (number,date,terms,due)>
+        <!ELEMENT number (#PCDATA)>
+        <!ELEMENT date (#PCDATA)>
+        <!ELEMENT terms (#PCDATA)>
+        <!ELEMENT due (#PCDATA)>
+        <!ELEMENT goodsDescription (product,description,quantity,rate,ammount)>
+        <!ELEMENT product (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT quantity (#PCDATA)>
+        <!ELEMENT rate (#PCDATA)>
+        <!ELEMENT ammount (#PCDATA)>
+        <!ELEMENT customerMessage (#PCDATA)>
+        <!ELEMENT paymentDetails (subtotal,salesTax,shipping,total)>
+        <!ELEMENT subtotal (#PCDATA)>
+        <!ELEMENT salesTax (#PCDATA)>
+        <!ELEMENT shipping (#PCDATA)>
+        <!ELEMENT total (#PCDATA)>
+        ]>
+
+<invoice>
+    <businessContactInfo>
+        <name></name>
+        <adress>
+            <street></street>
+            <city></city>
+            <state></state>
+            <zipCode></zipCode>
+        </adress>
+        <telephone></telephone>
+        <email></email>
+        <website></website>
+    </businessContactInfo>
+
+    <order>
+        <billTo>
+            <clientName></clientName>
+            <adress>
+                <street></street>
+                <city></city>
+                <state></state>
+                <zipCode></zipCode>
+            </adress>
+        </billTo>
+        <shipTo>
+            <clientName></clientName>
+            <adress>
+                <street></street>
+                <city></city>
+                <state></state>
+                <zipCode></zipCode>
+            </adress>
+        </shipTo>
+        <invoiceDetails>
+            <number></number>
+            <date></date>
+            <terms></terms>
+            <due></due>
+        </invoiceDetails>
+    </order>
+
+    <goodsDescription>
+        <product></product>
+        <description></description>
+        <quantity></quantity>
+        <rate></rate>
+        <ammount></ammount>
+    </goodsDescription>
+
+    <customerMessage></customerMessage>
+
+    <paymentDetails>
+        <subtotal></subtotal>
+        <salesTax></salesTax>
+        <shipping></shipping>
+        <total></total>
+    </paymentDetails>
+
+</invoice>
