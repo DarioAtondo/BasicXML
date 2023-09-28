@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE menuCDs [
+        <!ELEMENT menuCDs (cd)*>
+        <!ELEMENT cd (titulo,artista,pais,companiaDiscrografica,precio,anioPublicacion)*>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT artista (#PCDATA)>
+        <!ELEMENT pais (#PCDATA)>
+        <!ELEMENT companiaDiscrografica (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT anioPublicacion (#PCDATA)>
+        ]>
+<menuCDs>
+    <cd>
+        <titulo>still got the blues</titulo>
+        <artista>gary moore</artista>
+        <pais>uk</pais>
+        <companiaDiscrografica>virgin records</companiaDiscrografica>
+        <precio>10.20</precio>
+        <anioPublicacion>1990</anioPublicacion>
+    </cd>
+    <cd>
+        <titulo>one night only</titulo>
+        <artista>bee gees</artista>
+        <pais>uk</pais>
+        <companiaDiscrografica>polydor</companiaDiscrografica>
+        <precio>10.90</precio>
+        <anioPublicacion>1998</anioPublicacion>
+    </cd>
+    <cd>
+        <titulo>when a man loves a woman</titulo>
+        <artista>percy sledge</artista>
+        <pais>usa</pais>
+        <companiaDiscrografica>atlantic</companiaDiscrografica>
+        <precio>8.70</precio>
+        <anioPublicacion>1987</anioPublicacion>
+    </cd>
+    <cd>
+        <titulo>big willie style</titulo>
+        <artista>will smith</artista>
+        <pais>usa</pais>
+        <companiaDiscrografica>columbia</companiaDiscrografica>
+        <precio>9.90</precio>
+        <anioPublicacion>1997</anioPublicacion>
+    </cd>
+    <cd>
+        <titulo>la cancion de juan perro</titulo>
+        <artista>radio futura</artista>
+        <pais>españa</pais>
+        <companiaDiscrografica>sony music-ariola</companiaDiscrografica>
+        <precio>9.90</precio>
+        <anioPublicacion>1987</anioPublicacion>
+    </cd>
+    <cd>
+        <titulo>the dock of the bay</titulo>
+        <artista>otis redding</artista>
+        <pais>usa</pais>
+        <companiaDiscrografica>atlantic</companiaDiscrografica>
+        <precio>7.90</precio>
+        <anioPublicacion>1987</anioPublicacion>
+    </cd>
+</menuCDs>
