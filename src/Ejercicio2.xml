@@ -20,6 +20,8 @@
     </destinatario>
     <asunto>Hola Bill</asunto>
     <texto>
-        <parrafo>¿Hola qué tal? Espero que estes bien, te extraño mucho, vamos a la plaza del estudiante.</parrafo>
-    </texto>
+        <parrafo>¿Hola qué tal?</parrafo>
+        <parrafo>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.</parrafo>
+        <parrafo>Un saludo.</parrafo>
+        </texto>
 </mensaje>
